@@ -28,7 +28,7 @@ module.exports = {
     filename: './[name].bundled.js',
   },
   performance: {
-    maxAssetSize: 4000000
+    maxAssetSize: 1500000
   },
   plugins: [
     new CopyPlugin({
